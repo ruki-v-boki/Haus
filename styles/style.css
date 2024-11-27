@@ -547,3 +547,147 @@
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+
+
+
+                                /* FOOTER */
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 45px 60px 40px;
+    color: #FFF;
+    background-color: #000;
+}
+
+.footer__content-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+                /* form */
+.footer__form {
+    max-width: 440px;
+}
+
+.form__title {
+    font-family: 'Liberation serif', serif;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 72px;
+}
+
+.form__text {
+    max-width: 425px;
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.form__textfield-box {
+    display: flex;
+    justify-content: space-between;
+    min-width: 440px;
+    margin-top: 30px;
+    border-bottom: 1px solid #818181;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.form__textfield {
+    width: 100%;
+    border: none;
+    color: inherit;
+    background-color: transparent;
+}
+
+.form__textfield::placeholder {
+    color: #818181;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 14px;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+}
+
+                /* button */
+.form__button {
+    margin-right: 4px;
+    border: none;
+    color: #FFF;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+                /* links-box */
+.footer__links-box {
+    display: flex;
+    padding-top: 10px;
+}
+
+.links-column {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    min-width: 220px;
+}
+
+.links-column_start {
+    padding-left: 5px;
+}
+
+.links-column_center {
+    padding-left: 25px;
+}
+
+.links-column_end {
+    margin-right: 5px;
+}
+
+.links-column__title {
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.links-column__link {
+    opacity: 60%;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+                /* bottom */
+.footer__bottom {
+    display: flex;
+    gap: 64px;
+    padding-top: 140px;
+}
+
+.copyright {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.footer__bottom-link {
+    opacity: 60%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+                /* status */
+.form__textfield:focus,
+.form__textfield:focus-visible {
+    outline: none;
+}
