@@ -283,7 +283,7 @@
 
 
 
-/* DEMO */
+                                /* DEMO */
 .demo {
     margin: 0 60px;
     border-top: 1px solid #BDBDBD;
@@ -366,4 +366,184 @@
 .features__image {
     display: block;
     height: 100%;
+}
+
+
+
+                                /* FEEDBACK */
+.feedback {
+    display: flex;
+    justify-content: space-between;
+    padding: 95px 60px 50px;
+    color: #FFF;
+    text-align: center;
+    background-color: #000;
+}
+
+.feedback__quote {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    max-width: 330px;
+}
+
+.feedback__quote-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.feedback__quote-text::before {
+    content: open-quote;
+}
+
+.feedback__quote-text::after {
+    content: close-quote;
+}
+
+.quote-author {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+
+.quote-author::before {
+    content: '— ';
+}
+
+.quote-author-status {
+    margin-top: -8px;
+    margin-left: 20px;
+    color: #8A8A8A;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+
+
+                                /* ADVANTAGES */
+.advantages {
+    display: flex;
+    gap: 110px;
+    padding: 60px;
+}
+
+.advantages__image {
+    display: block;
+    height: 100%;
+}
+
+.advantages__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.advantages__title {
+    font-family: 'Liberation serif', serif;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.advantages__text {
+    margin-top: 120px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.advantages__link {
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+
+                                /* MOOD */
+.mood {
+    padding: 60px;
+    background: url(../images/mood-cover.png) no-repeat center / cover;
+}
+
+.mood__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: fit-content;
+}
+
+                /* header */
+.mood__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 39px 67px;
+    color: #FFF;
+    text-align: center;
+    background-color: #000;
+}
+
+.mood__title {
+    font-family: 'Liberation serif', serif;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 80px;
+}
+
+.mood__text {
+    max-width: 415px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+                /* button */
+.mood__button {
+    margin-top: 26px;
+    padding: 18px 63px 20px;
+    color: #000;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #FFF;
+}
+
+                /* footer */
+.mood__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    color: #FFF;
+    background-color: #000;
+}
+
+.mood__footer-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.mood__footer-links-box {
+    display: flex;
+    gap: 34px;
+}
+
+.mood__link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
